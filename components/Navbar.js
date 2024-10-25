@@ -65,9 +65,7 @@ const Navbar = () => {
                     <Link href="/blog" className="hover:scale-105 hover:font-semibold transition-transform duration-300">
                         Blog
                     </Link>
-                    <Link href="/contact" className="hover:scale-105 hover:font-semibold transition-transform duration-300">
-                        Contact
-                    </Link>
+                   
                     <div className='flex items-center'>
                         <Button className="mx-1" variant="outline">Login</Button>
                         <Button className="mx-1" variant="outline">Signup</Button>
