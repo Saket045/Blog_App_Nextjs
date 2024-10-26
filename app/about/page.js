@@ -70,7 +70,7 @@ export default function About() {
               <div className="md:w-2/3 md:pl-8 mt-8 md:mt-0">
                 <h3 className="text-2xl font-bold text-gray-800 dark:text-white">Lesser exposure</h3>
                 <p className="mt-4 text-gray-600 dark:text-gray-50">
-                Coming from a Tier 3 college, I initially lacked exposure to technology and career paths. I only learned about the GATE exam through a seminar, and though I started preparing, my efforts fell short. In my 3rd year, I shifted focus to DSA, development, and building projects to gain hands-on experience.
+                I initially lacked exposure to technology and career paths. I only learned about the GATE exam through a seminar, and though I started preparing, my efforts fell short. In my 3rd year, I shifted focus to DSA, development, and building projects to gain hands-on experience.
                 </p>
               </div>
             </div>

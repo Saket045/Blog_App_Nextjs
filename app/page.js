@@ -102,7 +102,7 @@ export default function Home() {
  <section className="py-12 bg-white dark:bg-gray-900">
   <div className="container px-4 mx-auto">
     <div className="text-center mb-12">
-      <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-200">"What the tech tychoons say"</h2>
+      <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-200">"What the tech tycoons say"</h2>
     </div>
     <div className="flex flex-wrap justify-center">
       {/* Testimonial 1 */}
@@ -146,7 +146,7 @@ export default function Home() {
           <div className="mt-4">
             <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">C Programming Tutorial</h3>
             <p className="mt-2 text-gray-600 dark:text-gray-400">This is C tutorial and this is for learning C</p>
-            <Button className="m-2" variant="outline" href="/blog-post-1">Read More</Button>
+           
           </div>
         </div>
       </div>
@@ -157,7 +157,7 @@ export default function Home() {
           <div className="mt-4">
             <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">C++ programming tutorial</h3>
             <p className="mt-2 text-gray-600 dark:text-gray-400">This is C++ tutorial and this is for learning C++</p>
-            <Button className="m-2" variant="outline" href="/blog-post-2">Read More</Button>
+            
           </div>
         </div>
       </div>
@@ -168,7 +168,7 @@ export default function Home() {
           <div className="mt-4">
             <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">CSS tutorial</h3>
             <p className="mt-2 text-gray-600 dark:text-gray-400">This is CSS tutorial and this is for learning CSS</p>
-            <Button className="m-2" variant="outline" href="/blog-post-3">Read More</Button>
+            
           </div>
         </div>
       </div>
