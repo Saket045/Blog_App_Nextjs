@@ -1,9 +1,9 @@
 ---
 title: ChatGPT vs. Gemini
-description: This is JavaScript tutorial and this is for learning JavaScript
+description: Compare Chatpgpt with Gemini
 slug: chatgpt-vs-gemini
-date: 08/02/2025
-author: Harry
+date: 08/08/2024
+author: Saket
 image: https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 ---
 

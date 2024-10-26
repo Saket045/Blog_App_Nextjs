@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import Link from 'next/link';
-import { Button } from "@/components/ui/button"
+
 import {
     Sheet,
     SheetContent,
@@ -54,9 +54,9 @@ const Navbar = () => {
       />
             <div className="container mx-auto flex justify-between items-center">
                 <Link href={"/"}><div className="text-lg font-bold">
-                    HarryBlog
+                    SAKET
                 </div></Link>
-                <div className="hidden md:flex space-x-4 items-center">
+                <div className="hidden md:flex space-x-4 items-center md:pr-12 lg:pr-18">
                     <Link href="/" className="hover:scale-105 hover:font-semibold transition-transform duration-300"> Home
                     </Link>
                     <Link href="/about" className="hover:scale-105 hover:font-semibold transition-transform duration-300">
@@ -66,15 +66,13 @@ const Navbar = () => {
                         Blog
                     </Link>
                    
-                    <div className='flex items-center'>
-                        <Button className="mx-1" variant="outline">Login</Button>
-                        <Button className="mx-1" variant="outline">Signup</Button>
+                    <div className='flex items-center pl-4'>
                         <ModeToggle />
                     </div>
                 </div>
 
                 <div className="md:hidden">
-                        <span className="mx-2"> 
+                        <span className="mx-4"> 
                             <ModeToggle />
                         </span>
                     <Sheet>
@@ -85,7 +83,7 @@ const Navbar = () => {
                         </SheetTrigger>
                         <SheetContent>
                             <SheetHeader>
-                                <SheetTitle className="font-bold my-4">HarryBlog</SheetTitle>
+                                <SheetTitle className="font-bold my-4">SAKET</SheetTitle>
                                 <SheetDescription>
                                     <div className="flex flex-col gap-6">
                                         <Link href="/"> Home
@@ -96,14 +94,7 @@ const Navbar = () => {
                                         <Link href="/blog">
                                             Blog
                                         </Link>
-                                        <Link href="/contact">
-                                            Contact
-                                        </Link>
-                                        <div>
-                                            <Button className="mx-1 text-xs" variant="outline">Login</Button>
-                                            <Button className="mx-1 text-xs" variant="outline">Signup</Button>
-
-                                        </div>
+                                       
 
                                     </div>
                                 </SheetDescription>

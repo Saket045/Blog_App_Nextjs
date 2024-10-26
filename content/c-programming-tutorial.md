@@ -1,9 +1,9 @@
 ---
 title: C Programming Tutorial
-description: This is JavaScript tutorial and this is for learning JavaScript
+description: This is C tutorial and this is for learning C
 slug: c-programming-tutorial
-date: 02/03/2025
-author: Harry
+date: 01/07/2024
+author: Saket
 image: /typescript.webp
 ---
 
